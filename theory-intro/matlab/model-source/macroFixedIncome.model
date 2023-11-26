@@ -1,0 +1,85 @@
+
+
+!variables
+
+    rp, rc, q, prem, rf
+    pv_inx, new_pvu
+
+
+!parameters
+
+    ss_rp
+    ss_q, ss_prem
+
+    c0_rp
+    theta
+
+
+!shocks
+
+    shock_rp
+    shock_q, shock_prem
+
+
+!log-variables !all-but
+
+    rp, rc, rf, prem, q
+
+
+!equations
+
+    "Nominal interest rate equation"
+    rp = ...
+        + c0_rp * rp{-1} ...
+        + (1 - c0_rp) * ss_rp ...
+        + shock_rp ...
+    !! rp = ss_rp;
+
+%{
+
+#### Discount rate components
+
+%}
+
+
+    "Risk-free rate for pricing fixed income securities"
+    (1 + rf) = (1 + rp + prem);
+
+    "Fixed income credit risk"
+    q = ss_q + shock_q;
+
+    "Other sovereign premium"
+    prem = ss_prem + shock_prem;
+
+
+%{
+
+#### Present value index
+
+This is an auxiliary variable that is used to determine the present value
+of any instrument that generates 1 currency unit at t+1, (1-theta) at t+2, etc.
+
+%}
+
+
+    "Auxiliary present value index"
+    pv_inx * (1 + rf) = 1 + (1 - theta)*(1 - q{+1}) * pv_inx{+1};
+
+
+%{
+
+#### Coupon rate on newly issued sovereign debt
+
+Use the assumption that the present value of newly issued sovereign debt
+equals its face value at origination to determine the coupon rate
+
+%}
+
+
+    "Present value of unit portfolio of newly issued sovereign debt"
+    new_pvu = (rc + theta) * pv_inx;
+
+    "Face value === present value of newly issued debt at origination"
+    1 = new_pvu;
+
+

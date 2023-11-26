@@ -1,0 +1,15 @@
+{
+  "vimMode": true,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": false,
+  "strictLineBreaks": true,
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  },
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true
+}

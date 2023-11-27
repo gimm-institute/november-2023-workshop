@@ -5,7 +5,7 @@
 
 close all
 clear
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 
 %% Prepare the model
@@ -68,7 +68,7 @@ smc = databank.minusControl(m, s, d);
 
 %% Chartpack
 
-ch = defineChartpack();
+ch = define_chartpack();
 ch.Range = 0:40;
 ch.Highlight = 0:T;
 ch.FigureTitle = "Asset price boom-bust with DTI caps: " + ch.FigureTitle;

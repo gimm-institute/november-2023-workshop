@@ -16,7 +16,7 @@
 close all
 clear
 
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 m1 = m;
 m1.c3_y_gap = 0;

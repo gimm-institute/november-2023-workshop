@@ -1,4 +1,5 @@
-function [curveH, minH] = drawCapitalAdequacyRiskFunc(axesH, model, car_min)
+
+function [curveH, minH] = draw_capital_adequacy_risk_func(axesH, model, car_min)
 
     x = access(model, "steady-level");
 

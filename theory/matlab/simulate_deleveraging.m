@@ -48,7 +48,7 @@ Devastating | –15pp
 
 close all
 clear
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 
 %% Design the simulation
@@ -117,7 +117,7 @@ smcf = databank.minusControl(f1, sf, df);
 
 %% Chartpack
 
-ch = defineChartpack();
+ch = define_chartpack();
 ch.FigureTitle = "Deleveraging: " + ch.FigureTitle;
 ch.Range = 0:40;
 ch.FigureExtras = { @(h) visual.hlegend("bottom", "Harmless", "Severe", "Devastating") };

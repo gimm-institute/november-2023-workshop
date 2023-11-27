@@ -2,7 +2,7 @@
 close all
 clear
 
-load mat/simulateBoomBust.mat m T s3 s4 smc3 smc4
+load mat/simulate_boom_bust.mat m T s3 s4 smc3 smc4
 
 s = databank.merge("horzcat", s3, s4);
 smc = databank.merge("horzcat", smc3, smc4);

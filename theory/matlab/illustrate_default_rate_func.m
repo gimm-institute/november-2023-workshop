@@ -1,7 +1,8 @@
+%% Visualize the portfolio default rate function
 
 close all
 clear
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 %m.c2_q_hh = 0.020;
 %m.c4_q_hh = -0.003;

@@ -22,7 +22,7 @@ y_gap = 1.04 means +4%
 
 close all
 clear
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 m1 = m;
 m1.c3_y_gap = 0;
@@ -62,8 +62,9 @@ plot(100*([s.y_gap, s1.y_gap]-1));
 
 smc = databank.minusControl(m, databank.merge("horzcat", s1, n1));
 
-ch = defineChartpack();
+ch = define_chartpack();
 ch.FigureTitle = "Output shock: " + ch.FigureTitle;
 ch.Range = 0:40;
 ch.FigureExtras = { @(h) visual.hlegend("bottom", "Feedback", "No feedback") };
 draw(ch, smc);
+

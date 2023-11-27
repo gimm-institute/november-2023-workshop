@@ -20,18 +20,18 @@ end
 
 % Create a model object based on a subset of modules
 
-modelFiles = [...
-  "model-source/macroWorld.model"
-  "model-source/macroLocal.model"
-  "model-source/macroAssets.model"
+modelFiles = [
+  "model-source/macro_world.model"
+  "model-source/macro_local.model"
+  "model-source/macro_assets.model"
 
-  "model-source/connectCreditCreation.model"
-  "model-source/connectCreditRisk.model"
-  "model-source/connectInterestRates.model"
+  "model-source/connect_credit_creation.model"
+  "model-source/connect_credit_risk.model"
+  "model-source/connect_interest_rates.model"
 
-  "model-source/bankLoanPerformance.model"
-  "model-source/bankProvisioning.model"
-  "model-source/bankCapital.model"
+  "model-source/bank_credit_performance.model"
+  "model-source/bank_provisioning.model"
+  "model-source/bank_capital.model"
 ];
 
 m = Model.fromFile( ...
@@ -49,17 +49,17 @@ m = Model.fromFile( ...
 
 p = struct();
 
-p = calibrate.macroLocal(p);
-p = calibrate.macroWorld(p);
-p = calibrate.macroAssets(p);
+p = calibrate.macro_local(p);
+p = calibrate.macro_world(p);
+p = calibrate.macro_assets(p);
 
-p = calibrate.connectCreditCreation(p);
-p = calibrate.connectCreditRisk(p);
-p = calibrate.connectInterestRates(p);
+p = calibrate.connect_credit_creation(p);
+p = calibrate.connect_credit_risk(p);
+p = calibrate.connect_interest_rates(p);
 
-p = calibrate.bankLoanPerformance(p);
-p = calibrate.bankProvisioning(p);
-p = calibrate.bankCapital(p);
+p = calibrate.bank_credit_performance(p);
+p = calibrate.bank_provisioning(p);
+p = calibrate.bank_capital(p);
 
 p = calibrate.stress(p);
 
@@ -84,6 +84,6 @@ m = solve(m);
 
 %% Save model objects to MAT File
 
-save mat/createModel.mat m
-
+disp("Saving to mat/create_model.mat")
+save mat/create_model.mat m
 

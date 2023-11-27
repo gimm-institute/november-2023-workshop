@@ -95,9 +95,10 @@
   financial system, and connecting modules
 
 * Examples of extensions we implemented elsewhere
-	* nonbank intermediaries (securities dealers)
-	* corporate fixed income markets
-	* sovereign fixed income markets
+
+    * nonbank intermediaries (securities dealers)
+    * corporate fixed income markets
+    * sovereign fixed income markets
 
 
 --------------------------------------------------------------------------------
@@ -166,4 +167,5 @@
 
 
 --------------------------------------------------------------------------------
+
 

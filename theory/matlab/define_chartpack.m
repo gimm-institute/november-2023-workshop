@@ -1,5 +1,5 @@
 
-function ch = defineChartpack()
+function ch = define_chartpack()
 
     ch = databank.Chartpack();
     ch.Round = 8;

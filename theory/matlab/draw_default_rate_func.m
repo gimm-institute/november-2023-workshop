@@ -1,5 +1,5 @@
 
-function curveH = drawDefaultRateFunc(axesH, model)
+function curveH = draw_default_rate_func(axesH, model)
 
     x = access(model, "steady-level");
 

@@ -5,7 +5,7 @@
 
 close all
 clear
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 
 %% Design the simulation
@@ -144,7 +144,7 @@ smc5 = databank.minusControl(m, s5, d0);
 
 %% Chartpack
 
-ch = defineChartpack();
+ch = define_chartpack();
 
 ch.FigureTitle = "Asset price and credit boom-bust: " + ch.FigureTitle;
 ch.Range = 0:40;
@@ -167,6 +167,6 @@ visual.hlegend("bottom", thingsToPlot{:, 2});
 
 %% Save results to MAT file for further use
 
-save mat/simulateBoomBust.mat m T s1 s2 s3 s4 smc1 smc2 smc3 smc4
+save mat/simulate_boom_bust.mat m T s1 s2 s3 s4 smc1 smc2 smc3 smc4
 
 

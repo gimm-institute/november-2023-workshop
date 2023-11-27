@@ -1,11 +1,10 @@
-%% Simulate deleveraging
-
+%% Illustrate a delta method
 
 %% Clear the workspace
 
 close all
 clear
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 
 

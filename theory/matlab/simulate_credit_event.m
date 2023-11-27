@@ -1,8 +1,9 @@
+%% Simulate credit risk event
 
 close all
 clear
 
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 
 range = 1 : 40;

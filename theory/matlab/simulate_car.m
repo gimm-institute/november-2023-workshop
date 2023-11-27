@@ -19,7 +19,7 @@
 
 close all
 clear
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 
 %% Design the simulation
@@ -120,7 +120,7 @@ smc = databank.minusControl(m, s, d0);
 
 %% Chartpack
 
-ch = defineChartpack();
+ch = define_chartpack();
 ch.Range = 0:40;
 ch.FigureTitle = "Asset price and credit boom-bust: " + ch.FigureTitle;
 ch.FigureExtras = { @(h) visual.hlegend( ...

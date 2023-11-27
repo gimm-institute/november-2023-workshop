@@ -3,7 +3,7 @@
 close all
 clear
 
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 m20 = m;
 m20.ss_sigma_hh = 0.20;

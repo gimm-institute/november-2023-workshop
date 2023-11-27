@@ -1,8 +1,9 @@
+%% Example of a simple reverse stress scenario
 
 close all
 clear
 
-load mat/createModel.mat m
+load mat/create_model.mat m
 
 m.c1_rona = 0.1;
 m.c2_ivy_hh = 2;

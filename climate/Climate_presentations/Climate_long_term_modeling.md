@@ -193,6 +193,7 @@ Also very [complex model](https://jgcri.github.io/gcam-doc/overview.html) with d
 * Requires dedicated team with ample resources
 * Outputs are: 
 	* Surrounded by large uncertainty
+		* Some argue that current scenario [grossly underestimate risks](https://actuaries.org.uk/media/qeydewmk/the-emperor-s-new-climate-scenarios.pdf)
 	* Not detailed enough (geographically, available variables) => need to use e.g. CGE models which are not policy-invariant
 	* Not clear if policy-relevant currently
-* Our view: leave this to experts, utilize what is available for directly relevant work
+* Our view: leave this to the experts, utilize what is available for directly relevant work

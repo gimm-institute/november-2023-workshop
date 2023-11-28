@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Climate_presentations/Climate_long_term_modeling.md",
+                "file": "Climate_presentations/Climate_current_practices.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Climate_presentations/Climate_long_term_modeling.md",
+                "file": "Climate_presentations/Climate_current_practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Climate_presentations/Climate_long_term_modeling.md",
+                "file": "Climate_presentations/Climate_current_practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Climate_presentations/Climate_long_term_modeling.md"
+                "file": "Climate_presentations/Climate_current_practices.md"
               }
             }
           }
@@ -148,26 +148,28 @@
   },
   "active": "bf88c8a7fcb29079",
   "lastOpenFiles": [
-    "gimm-alt-white-bkg.png",
-    "Climate_intro.md",
-    "Climate_presentations/Climate_long_term_modeling.md",
-    "Climate_presentations/Climate_intro.md",
-    "Climate_presentations/Climate_stress_testing_current_practices.md",
-    "Climate_presentations/Pasted image 20231123232343.png",
-    "Climate_presentations/Pasted image 20231123221409.png",
-    "Climate_presentations/Pasted image 20231123221024.png",
-    "Climate_presentations/Pasted image 20231123221009.png",
-    "Climate_presentations/Pasted image 20231123145157.png",
-    "Climate_presentations/Pasted image 20231123143445.png",
-    "Climate_presentations/Pasted image 20231123143251.png",
-    "Climate_presentations/Pasted image 20231121160111.png",
-    "Climate_presentations/Pasted image 20231121122553.png",
-    "Climate_presentations/Pasted image 20231121115138.png",
-    "Climate_presentations/Climate_long_term_modeling.pdf",
     "Climate_presentations/Climate_risk_classification.md",
+    "Climate_presentations/Climate_intro.md",
+    "Climate_presentations/Climate_current_practices.md",
+    "Climate_presentations/Climate_current_practices.pdf",
+    "Climate_presentations/Climate_long_term_modeling.md",
+    "Climate_presentations/Climate_long_term_modeling.pdf",
+    "Climate_presentations/Climate_risk_classification.pdf",
+    "Climate_presentations/Pasted image 20231128132335.png",
+    "Climate_presentations/Pasted image 20231128131528.png",
+    "Climate_presentations/Pasted image 20231128130812.png",
+    "Climate_presentations/Pasted image 20231128130335.png",
+    "Climate_presentations/Pasted image 20231128102854.png",
+    "Climate_presentations/Pasted image 20231128102830.png",
+    "Climate_presentations/Pasted image 20231128102811.png",
+    "Climate_presentations/Pasted image 20231128070014.png",
+    "Climate_presentations/Pasted image 20231128065330.png",
+    "Climate_presentations/Climate_intro.pdf",
+    "Pasted image 20231128132335.png",
+    "Climate_presentations/Climate_stress_testing_current_practices.md",
+    "Climate_intro.md",
     "[.md",
     "Pasted image 20230224234711.png.md",
-    "Climate_presentations/Climate_intro.pdf",
     "Climate/Climate_risk_classification.md",
     "Climate/Climate_intro.md",
     "Climate/Climate_intro.pdf",

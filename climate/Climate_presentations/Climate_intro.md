@@ -10,7 +10,7 @@ Tomas Motl tomas.motl@gimm.institute
 
 * We are not climatologists
 * What follows is our best understanding, but we can make errors
-* Sources are provided, read them and and check of you agree with us
+* Sources are provided, read them and and check if you agree with us
 * We also have a large repository of annotated papers that are relevant to this topic, accessible to members
 
 ---
@@ -227,3 +227,4 @@ ECB/ESRB guide to calculate various proposed metrics is provided [here](https://
 	* Can be abrupt with large impact
 * We can utilize long-term scenarios, e.g. by the NGFS
 * We should be honest about uncertainty
+* Area of intense research and development, but we can learn from some practical results from large institutions (ECB, Bank of Canada, ...)

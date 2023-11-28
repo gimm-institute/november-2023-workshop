@@ -14,6 +14,25 @@ Tomas Motl tomas.motl@gimm.institute
 
 ---
 
+### Toronto Centre
+
+[Non-profit organization](https://www.torontocentre.org/) akin to GIMM.
+*Capacity building programs and guidance for financial supervisors and regulators, primarily in developing nations, to advance financial stability and inclusion*
+
+Good source of practical information. Also do training programs, focused mostly on microprudential regulation.
+
+They published several interesting papers:
+* **Introduction for Supervisors to Scenarios and Stress Tests of Climate Change Risks** ([link](https://www.torontocentre.org/index.php?option=com_content&view=article&id=442&Itemid=99))
+	* Concise, precise treatment of climate stress testing area
+* **Updated Climate Toolkit** ([link](https://www.torontocentre.org/index.php?option=com_content&view=article&id=416&Itemid=99))
+	* Designed for financial supervisors in emerging markets and developing economies
+	* Highlights also biodiversity risk, in addition to climate
+	* Provides a short discussion of key topics, with several links to publications that give more detail
+
+Good to follow on [LinkedIn](https://www.linkedin.com/company/toronto-centre/).
+
+---
+
 ### NBER Paper on Climate Stress Testing
 
 [Published](https://nber.org/papers/w31097) in April 2023, provides a nice review of the current situation, challenges, etc. 
@@ -38,25 +57,6 @@ Aligns well with many of our views.
 	* Need for feedback loops
 	* Need for dynamic balance sheets
 	* Need to consider market risk, which can be particularly impactful on short horizons
-
----
-
-### Toronto Centre
-
-Non-profit akin to GIMM.
-
-Good [source](https://www.torontocentre.org/) of practical information
-* *Capacity building programs and guidance for financial supervisors and regulators, primarily in developing nations, to advance financial stability and inclusion*
-
-Also do training programs, focused mostly on microprudential regulation.
-
-They published several interesting papers:
-* Introduction for Supervisors to Scenarios and Stress Tests of Climate Change Risks ([link](https://www.torontocentre.org/index.php?option=com_content&view=article&id=442&Itemid=99))
-	* Concise, precise treatment of climate stress testing area
-* 
-
-Good to follow on [LinkedIn](https://www.linkedin.com/company/toronto-centre/).
-
 
 ---
 
@@ -109,23 +109,81 @@ Good to follow on [LinkedIn](https://www.linkedin.com/company/toronto-centre/).
 ![[Pasted image 20231127142954.png|600]]
 ![[Pasted image 20231127143943.png|600]]
 
-
----
-
-### Useful resources
-
-Toronto Center
-NGFS
-Bank of England
-e Australian Prudential Regulation Authority (2021)
-
 ---
 
 ### Bank of Canada
 
-* [Bank of Canada pilot](https://www.bankofcanada.ca/wp-content/uploads/2021/11/BoC-OSFI-Using-Scenario-Analysis-to-Assess-Climate-Transition-Risk.pdf)
-	* Scenarios (working paper [here](https://www.bankofcanada.ca/2022/01/staff-discussion-paper-2022-1/)) developed using a CGE model (MIT-EPPA) linked with two macro DSGE models that analyze impact on US and Canada
-		* Note the appropriate use of existing, well calibrated, well tested tools! 
-		* However, no feedback
-	* Horizon 2020 - 2050
-![[Pasted image 20231123221409.png|500]]
+Nice practical example with couple good ideas. 
+
+* Pilot in 2022
+	* Six financial institutions participated, not system-wide
+	* The objective was not to stress-test, but to build capacity for future
+* Methodology:
+	* Static balance sheets
+	* Focused on 10 most emission-intensive sectors
+	* Four scenarios: Current policies, Net zero by 2050, Immediate 2 deg, Delayed 2 deg (working paper [here](https://www.bankofcanada.ca/2022/01/staff-discussion-paper-2022-1/))
+		* Cover the whole world (8 regions)
+	* Developed using a CGE model (MIT-EPPA) linked with two macro DSGE models that analyze impact on US and Canada
+			* Note the appropriate use of existing, well calibrated, well tested tools! 
+			* However, **no feedback**
+		* Horizon 2020 - 2050
+	* Calculate carbon price that would be consistent with assumed emissions, given additional assumptions (technology, policies)
+	* Scenario details, incl. variable values, are [available to download](https://www.bankofcanada.ca/2022/01/climate-transition-scenario-data/)
+* Macroeconomic impact:
+	* Higher energy prices due to carbon pricing
+	* Reduced foreign demand (key factor)
+	* Lower commodity export prices
+* From macro to credit risk:
+	* Banks selected representative borrowers in each loan segment. then micro models (PDs, LGDs) were applied
+		* Apparently this was quite difficult for the banks
+	* These estimates were then **used for estimation of economy-wide climate transition - credit risk relationship**
+		* Some nice charts with estimates are provided
+		* Note that by 2030, the effects are not that large
+* From macro to market risk:
+	* Impact on equities using discounted dividends
+* Details on translating macro to credit and market risk are available in a special [report](https://www.bankofcanada.ca/wp-content/uploads/2021/11/tr120.pdf)
+* Experience from the pilot:
+	* Far more time and resources needed than anticipated
+	* Bottom-up approach yields inconsistencies
+* Implausibly high carbon prices?
+
+![[Pasted image 20231128070014.png|600]]
+![[Pasted image 20231128065330.png|600]]
+![[Pasted image 20231128102811.png|600]]
+![[Pasted image 20231128102830.png|600]]
+![[Pasted image 20231128102854.png|600]]
+![[Pasted image 20231128130335.png|600]]
+
+![[Pasted image 20231128130812.png|600]]
+![[Pasted image 20231128131528.png|600]]
+![[Pasted image 20231128132335.png|600]]
+
+---
+
+### Other potentially useful resources
+
+These might be of interest, but are not as interesting, detailed, or inspiring as the above.
+
+* [FSB](https://www.fsb.org/wp-content/uploads/P151122.pdf) 
+	* Overview of the stress testing exercises conducted so far - methods, models, risks considered, identified data gaps, etc.
+	* Based on a survey among NGFS and FSB member institutions
+	* Serves as a good source of information where the current "industry standards" are
+* [Riksbank](https://www.riksbank.se/en-gb/about-the-riksbank/the-tasks-of-the-riksbank/the-riksbanks-work-on-sustainability/climate-report/the-riksbanks-climate-report2/focus-riksbank-plans-stress-test-of-climate-risks-in-swedish-banks/) 
+	* Currently only considers how to implement climate risk stress testing
+* [Australian Prudential Regulation Authority](https://www.apra.gov.a u/climate-vulnerability-assessment-november-2022)  
+	* Cooperating with the 5 largest banks, similar approach as Bank of Canada	
+	* Two scenarios derived from NGFS run through multi-country model which features also Australia
+	* Horizon 2050
+* [New Zealand](https://www.rbnz.govt.nz/financial-stability/stress-testing-regulated-entities/climate-stress-test)
+	* Five largest banks, NGFS scenarios adapted to local needs
+	* Horizon 2050
+	* Problem: their scenarios are designed to really matter only after 2030, so it's not clear what the macropru policy should do now
+* [Bank of France](https://publications.banque-france.fr/en/climate-scenario-analysis-assess-financial-risks-some-encouraging-first-steps)
+	* Very brief, self-congratulatory, but broadly in line with others
+* [Deloitte](https://www2.deloitte.com/bn/en/pages/financial-services/articles/climate-related-risk-stress-testing.html)
+	* Nice charts, little content
+* [UN](https://www.unepfi.org/themes/climate-change/good-practice-guide-to-climate-stress-testing/)
+		* Large overview document 
+		* Discusses also organizational issues
+		* Not much insight additional to already covered sources
+

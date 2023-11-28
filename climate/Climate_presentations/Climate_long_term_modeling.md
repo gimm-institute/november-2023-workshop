@@ -183,3 +183,16 @@ Also very [complex model](https://jgcri.github.io/gcam-doc/overview.html) with d
 * Current state-of-the art
 * Comprehensive, updated frequently, comparatively rich macro, ...
 * Will be covered in a separate presentation
+* Better than [SSPs]([https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/ "https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/")) because they are updated regularly
+
+
+---
+### Where does this leave us?
+
+* Long-term macro-climate modeling is very complicated exercise
+* Requires dedicated team with ample resources
+* Outputs are: 
+	* Surrounded by large uncertainty
+	* Not detailed enough (geographically, available variables) => need to use e.g. CGE models which are not policy-invariant
+	* Not clear if policy-relevant currently
+* Our view: leave this to experts, utilize what is available for directly relevant work

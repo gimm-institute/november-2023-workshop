@@ -33,6 +33,7 @@ Tomas Motl tomas.motl@gimm.institute
 ECB Exposure-risk framework:
   ![[Pasted image 20230224112405.png|500]]
 
+
 ---
 ### What is special about these risks?
 * Most empirical literature focuses on **physical** risks - we have previous observations

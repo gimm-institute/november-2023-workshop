@@ -27,8 +27,8 @@ https://m.xkcd.com/1732/
 --- 
 ### Personal experience - it is getting warmer...
 
-![[Pasted image 20231121105009.png|600]]
-![[Pasted image 20231121105105.png|600]]
+![[Pasted image 20231121105009.png|550]]
+![[Pasted image 20231121105105.png|550]]
 
 
 ---
@@ -39,12 +39,12 @@ https://m.xkcd.com/1732/
 ---
 ### Historically, it was mostly developed countries, but nowadays it is different
 
-![[Pasted image 20231121100408.png|600]]
+![[Pasted image 20231121100408.png|500]]
 [Source](https://ourworldindata.org/grapher/cumulative-co-emissions)
-![[Pasted image 20231121100519.png|600]]
+![[Pasted image 20231121100519.png|500]]
 
 ---
-### It's energy, industry, transport, agriculture
+### Energy, industry, transport, agriculture
 
 Note that **per capita GHG emissions are not increasing much**
 ![[Pasted image 20231121112042.png]]
@@ -145,8 +145,8 @@ Based on the [2023 IPCC Assessment](https://www.ipcc.ch/report/ar6/syr/figures/)
 	* revised market expectations 
 * **We argue in favor of climate-risk-related stress-testing scenarios on traditional horizons of several years.**
 
-**Long-term** (30-50 years) view needed to show benefits of the transition.
-**Short-term** (~5 years) view needed to analyze risks from the transition. Also aligns well with current tools.
+**Long-term** (30+ years) view needed to show benefits of the transition.
+**Short-term** (~5 years) view sufficient to analyze risks from the transition. Also aligns well with current tools.
 
 ![[Pasted image 20230224160729.png]]
 [Source](https://www.esrb.europa.eu/pub/pdf/reports/esrb.ecb.climate_report202207~622b791878.en.pdf)
@@ -220,7 +220,7 @@ ECB/ESRB guide to calculate various proposed metrics is provided [here](https://
 * We should focus on short-term scenarios
 	* Less uncertainty
 	* More relevant
-	* Less demanding, comprehensible without our current skillsets and toolkits
+	* Less demanding, comprehensible with our current skillsets and toolkits
 	* Hard enough task as it is...
 * We should mostly focus on transition risks
 	* Not in the data at all

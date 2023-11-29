@@ -170,7 +170,7 @@ These might be of interest, but are not as interesting, detailed, or inspiring a
 	* Serves as a good source of information where the current "industry standards" are
 * [Riksbank](https://www.riksbank.se/en-gb/about-the-riksbank/the-tasks-of-the-riksbank/the-riksbanks-work-on-sustainability/climate-report/the-riksbanks-climate-report2/focus-riksbank-plans-stress-test-of-climate-risks-in-swedish-banks/) 
 	* Currently only considers how to implement climate risk stress testing
-* [Australian Prudential Regulation Authority](https://www.apra.gov.a u/climate-vulnerability-assessment-november-2022)  
+* [Australian Prudential Regulation Authority](https://www.apra.gov.au/climate-vulnerability-assessment-november-2022)  
 	* Cooperating with the 5 largest banks, similar approach as Bank of Canada	
 	* Two scenarios derived from NGFS run through multi-country model which features also Australia
 	* Horizon 2050

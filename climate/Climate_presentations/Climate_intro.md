@@ -228,3 +228,11 @@ ECB/ESRB guide to calculate various proposed metrics is provided [here](https://
 * We can utilize long-term scenarios, e.g. by the NGFS
 * We should be honest about uncertainty
 * Area of intense research and development, but we can learn from some practical results from large institutions (ECB, Bank of Canada, ...)
+  
+---
+
+* What is the situation in your country?
+	* Is there a mandate? 
+	* Is there a concern?
+	* Is there a specific framework / plan?
+	* Any work on data underway?

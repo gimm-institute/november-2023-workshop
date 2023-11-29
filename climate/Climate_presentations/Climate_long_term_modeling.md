@@ -10,6 +10,7 @@ Tomas Motl tomas.motl@gimm.institute
 
 * Show you how long-term macro-climate scenarios are done
 * Convince you that you should not invest your time and effort into this
+	* I studied this so you don't have to
 
 Long-term = 50+ years, for our purposes.
 
@@ -179,10 +180,46 @@ Also very [complex model](https://jgcri.github.io/gcam-doc/overview.html) with d
 
 ### NGFS Scenarios
 
-* Current state-of-the art
-* Comprehensive, updated frequently, comparatively rich macro, ...
-* Will be covered in a separate presentation
-* Better than [SSPs]([https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/ "https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/")) because they are updated regularly
+* Current state-of-the art, **best we have**
+* Comprehensive, updated frequently ([last update November 2023](https://www.ngfs.net/en/ngfs-climate-scenarios-phase-iv-november-2023)), comparatively rich in macro, ...
+* Cover both **physical and transition risks**
+* [Publicly available](https://www.ngfs.net/ngfs-scenarios-portal/data-resources/), also through [IMF Climate Dashboard](https://climatedata.imf.org/)
+* Better than [SSPs](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/) because they are updated regularly, richer in terms of economic variables
+
+![[Pasted image 20231129135857.png]]
+![[Pasted image 20231129140119.png]]
+![[Pasted image 20231129140201.png]]
+
+---
+
+### NGFS methodology
+
+NGFS uses pragmatic approach with a suite of models:
+
+1. Generate "transition pathways" (climate-policy nexus) by **three IAM models** 
+2. Use **satellite models** to evaluate physical risks consistent with the pathways
+3. Use **NiGEM** model to generate economic variables consistent with the pathways and the damages from physical risks
+
+![[Pasted image 20230224221332.png]]
+
+Complete methodology is [complicated](https://www.ngfs.net/sites/default/files/media/2023/11/07/ngfs_scenarios_technical_documentation_phase_iv.pdf) (240 pages!).
+
+
+---
+
+### NGFS scenario results
+
+![[Pasted image 20231129144336.png|600]]
+![[Pasted image 20231129144513.png|600]]
+![[Pasted image 20231129144610.png]]
+
+---
+
+### Accessing NGFS scenarios
+
+Through the [Scenario Explorer](https://www.ngfs.net/ngfs-scenarios-portal/data-resources/).
+
+
 
 
 ---
@@ -196,3 +233,4 @@ Also very [complex model](https://jgcri.github.io/gcam-doc/overview.html) with d
 	* Not detailed enough (geographically, available variables) => need to use e.g. CGE models which are not policy-invariant
 	* Not clear if policy-relevant currently
 * Our view: leave this to the experts, utilize what is available for directly relevant work
+* NGFS scenarios provide good reference points as to carbon prices, impact on energy prices, demand, ...

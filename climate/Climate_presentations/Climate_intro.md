@@ -12,6 +12,7 @@ Tomas Motl tomas.motl@gimm.institute
 * What follows is our best understanding, but we can make errors
 * Sources are provided, read them and and check if you agree with us
 * We also have a large repository of annotated papers that are relevant to this topic, accessible to members
+* Also, this is a depressing topic (health warning)
 
 ---
 ### The world is getting hotter

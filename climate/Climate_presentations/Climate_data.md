@@ -152,6 +152,7 @@ where
 * Probably the [single best source available](https://climatedata.imf.org/pages/access-data)
 * Aggregates also data from other sources, including NGFS
 * You can download [all available data for each country](https://climatedata.imf.org/search?categories=country%20files)
+* There is a special section on [financial risks](https://climatedata.imf.org/pages/fi-indicators#fr1)
 * Let's explore
 
 ---

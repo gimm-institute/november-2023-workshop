@@ -1,4 +1,4 @@
-%% Simulate credit risk event
+%% Simulate future credit risk event
 
 close all
 clear
@@ -6,57 +6,61 @@ clear
 load mat/create_model.mat m
 
 
-range = 1 : 40;
+%% Define simulation dates
 
-%% Unexpected at the beginning of the simulation
-
-d = steadydb(m, range);
-
-d.shock_q_hh(1) = 0.05;
-
-s = simulate( ...
-    m, d, range ...
-    , "prependInput", true ...
-    , "method", "stacked" ...
-);
+sim_start = 1;
+sim_end = 40;
+sim_range = sim_start : sim_end;
+chart_start = 0;
+chart_end = 20;
+chart_range = chart_start : chart_end;
 
 
-%% Placed in period 5
+%% Create input database (steady state)
 
-d = steadydb(m, range);
+d = databank.forModel(m, sim_range);
 
-d.shock_q_hh(5) = 0.05;
+
+%% Credit event in period 5
+
+
+% Anticipated
+
+d1 = d;
+d1.shock_q_hh(5) = 0.05;
 
 s1 = simulate( ...
-    m, d, range ...
+    m, d1, sim_range ...
     , "prependInput", true ...
     , "method", "stacked" ...
     , "anticipate", true ...
 );
 
+
+% Unanticipated
+
+d2 = d1;
+
 s2 = simulate( ...
-    m, d, range ...
+    m, d2, sim_range ...
     , "prependInput", true ...
     , "method", "stacked" ...
     , "anticipate", false ...
 );
 
 
-%%
-
-ch = Chartpack();
-ch.Range = 0:20;
-
-ch + ["q_hh", "l_hh", "lp_hh", "ln_hh", "lnc_hh", "lnw_hh", "new_ln_hh", "new_l_hh"];
-%ch + ["100*car", "400*new_rl_hh", "400*rl_hh", "100*(y_gap-1)"];
-%ch + ["400*(roc_cpi-1)"];
-ch + ["af_hh", "ap_hh", "100*af_to_l_hh", "100*ap_to_l_hh"];
-
-draw(ch, databank.merge("horzcat", s1, s2));
-
-legend("Expected", "Unexpected");
+smc1 = databank.minusControl(m, s1, d);
+smc2 = databank.minusControl(m, s2, d);
 
 
+%% Chart simulation results
 
+chart_db = databank.merge("horzcat", s1, s2);
 
+ch = define_chartpack();
+ch.FigureTitle = "Credit event: " + ch.FigureTitle;
+ch.Range = 0:40;
+ch.FigureExtras = { @(h) visual.hlegend("bottom", "Anticipated", "Unanticipated") };
+
+draw(ch, chart_db);
 

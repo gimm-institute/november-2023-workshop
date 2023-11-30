@@ -78,17 +78,17 @@
 
     !equations
 
-    % Fwl (expected loss based) allowances
+    % Financial (fwl, expected loss based) allowances
 
         "Allowances for expected credit losses, ?"
-        af_? = l_? - c1_af_? * (pvx_?*lp_? + lnc_?);
+        af_? = l_? - (pvx_?*lp_? + lnc_?);
 
         "Present value of expected cash flow from unit static pool, ?"
         pvx_? = (1 - q_?{+1})/(1 + rl_?)*(theta_lp_? + rl_? + (1 - theta_lp_?)*pvx_?{+1}) ...
               + (1 - lambda_?) * q_?{+1};
 
 
-    % Bwl (incurred loss based) allowances
+    % Prudential (bwl, incurred loss based) allowances
 
         ap_? = ap_lp_? + ap_ln_?;
 

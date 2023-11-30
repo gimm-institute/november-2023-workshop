@@ -38,7 +38,10 @@ Tomas Motl tomas.motl@gimm.institute
 * We should make **use of our current tools**
 	* Climate modeling is extremely difficult, and mostly not necessary
 	* We can capture climate risks within our current paradigm
-* **Adaption** of tools is needed, revolution probably not
+* Use of suite of models
+	* Structural model (DSGE-style) can help us understand the scenario in depth
+	* Our current tools than can take the
+* **Adaption** of tools might be needed, revolution probably not
 * However, **processes will have to be updated**
 	* New components of stress tests
 	* Cooperation with private banks (pilot projects?)

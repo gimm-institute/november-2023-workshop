@@ -22,6 +22,7 @@ Tomas Motl tomas.motl@gimm.institute
 	* Mostly focus on credit risk, some attention to market risk, not much otherwise
 	* Unclear how to measure exposure to future transition risks
 	 
+---
 
 * Even in **developed countries**, data suffers from: 
 	* lack of consistent coverage - corporates vs households, public vs private enterprises 
@@ -78,8 +79,9 @@ Should alleviate much of the problems.
 		* Sensitivity of non-credit assets to climate risks, incl. possible sensitivity of asset prices
 	* Data that link vulnerability to financial metrics
 		* Here, BIS means various parameter estimates, elasticities, etc.
-		  
-		  
+
+---
+
 * What **solutions** have been proposed?
 	* Sector-level GHG emission data
 	* Firm-level GHG emission data

@@ -97,7 +97,7 @@ Note: The [code](https://github.com/remindmodel/remind) is very complicated.
 ---
 ### REMIND-MAgPIE Cont.
 
-**MAgPIE** (Model of Agricultural Production and its Impact on the Environment
+**MAgPIE** (Model of Agricultural Production and its Impact on the Environment)
 	Global land use allocation model, which is connected to the grid-based dynamic vegetation model LPJmL
 
 **Agriculture:** Land use patterns, yields and total costs of agricultural production for each grid cell

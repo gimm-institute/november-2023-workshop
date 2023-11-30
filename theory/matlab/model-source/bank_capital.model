@@ -121,7 +121,7 @@
     rbk_int_loans = !for <segments> !do + rbk_int_loans_? !end;
 
     rbk_int_ona = (rona{-1} * ona{-1}) / bk{-1};
-    rbk_prov = (!for <segments> !do - (ap_? - ap_?{-1} + woff_?) !end) / bk{-1};
+    rbk_prov = (!for <segments> !do - (af_? - af_?{-1} + woff_?) !end) / bk{-1};
     rbk_val_ass = (!for <segments> !do + l_?{-1}*(j_? - 1) !end) / bk{-1};
     rbk_int_liab = (-(rd_lcy{-1}*(1-d_fcy_to_d{-1}) + rd_fcy{-1}*e/e{-1}*d_fcy_to_d{-1})*d{-1}) / bk{-1};
     rbk_val_liab = (-(d_fcy_to_d{-1}*d{-1}*(e/e{-1} - 1))) / bk{-1};

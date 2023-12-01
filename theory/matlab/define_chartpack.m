@@ -10,7 +10,8 @@ function ch = define_chartpack()
     ch.Transform = @(x) 100*(x-1);
 
     ch + "GDP // Pct level deviations: y";
-    ch + "GDP gap // Pct level deviations: ^100*(y_gap-1)";
+    % ch + "GDP gap // Pct level deviations: ^100*(y_gap-1)";
+    ch + "GDP Q/Q PA // Pp deviations: y/y{-1}^4";
     ch + "Short-term policy rate // Pp deviations: ^400*r";
     ch + "CPI inflation Q/Q PA // Pp deviations: roc_cpi^4"; 
     ch + "Nominal exchange rate // Pct level deviations: e";

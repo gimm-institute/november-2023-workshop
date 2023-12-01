@@ -47,6 +47,13 @@ Tomas Motl tomas.motl@gimm.institute
 	* Cooperation with private banks (pilot projects?)
 	* New data collection 
 
+
+---
+
+### Papers
+
+Relevant papers can be downloaded [here](https://drive.google.com/drive/folders/1HMXDUBQs8e1MCd9sHrtlvJK-oxILpzQv?usp=drive_link).
+
 ---
 
 ### Let's do scenarios

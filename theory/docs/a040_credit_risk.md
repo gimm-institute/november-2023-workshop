@@ -37,8 +37,8 @@ Credit risk creates several types of feedback linkages in the model:
 | Credit events $\rightarrow$ Loan performance | Bank loan performance |
 | Expected risk $\rightarrow$ Lending conditions | Bank interest rates |
 | Capital adequacy stress $\rightarrow$ Lending conditions | Bank capital |
+| Lending conditions $\rightarrow$ Macro conditions, forex | Local macro economy |
 | Macro conditions $\rightarrow$ Credit events   | Credit risk connector |
-| Lending conditions $\rightarrow$ Output and forex | Local macro economy |
 
 
 --------------------------------------------------------------------------------
@@ -47,9 +47,9 @@ Credit risk creates several types of feedback linkages in the model:
 ### Credit risk function
 
 
-* Implicitly based on Basel asymptotic single risk factor approach
+* Implicitly based on Basel ASFR (asymptotic single risk factor) approach
 
-* Mapping from a macro conditions index, $z_t$, (a single composit factor) into
+* Mapping from a macro conditions index, $z_t$, (a single composite factor) into
   a portfolio default rate, $q_t$
 
 $$

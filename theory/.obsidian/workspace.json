@@ -4,30 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f5abd1aede0414a9",
+        "id": "6a750e486888ece7",
         "type": "tabs",
         "children": [
           {
-            "id": "0fd059b5776f1597",
+            "id": "85de4a459e5842aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "workshop_plan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6471cfe24d4cc70a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "workshop_plan.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/lending-conditions-feedback-canvas.canvas",
+                "viewState": {
+                  "x": 10,
+                  "y": 145,
+                  "zoom": -0.8162880468276119
+                }
               }
             }
           }
@@ -106,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "workshop_plan.md",
+                "file": "docs/lending-conditions-feedback-canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "workshop_plan.md",
+                "file": "docs/lending-conditions-feedback-canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "workshop_plan.md"
+                "file": "docs/lending-conditions-feedback-canvas.canvas"
               }
             }
           }
@@ -168,8 +159,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0fd059b5776f1597",
+  "active": "85de4a459e5842aa",
   "lastOpenFiles": [
+    "assets/gimm-alt-white-bkg.png",
+    "assets/forecasts.png",
+    "assets/eba-design.png",
+    "assets/eba-cutout-4.jpg",
+    "assets/eba-cutout-3.jpg",
+    "assets/eba-cutout-2.jpg",
+    "assets/eba-cutout-1.jpg",
+    "assets/cycles.png",
+    "assets",
+    "docs/a010_overview.md",
+    "docs/a040_credit_risk.md",
+    "docs/a030_credit_creation.md",
+    "docs/a020_bank_balance_sheets.md",
+    "docs/lending-conditions-feedback-canvas.canvas",
+    "docs/a070_bank_capital.md",
+    "docs/a011_model_design.md",
+    "docs/loans-stock-flow.png",
+    "docs/stock-flow-loans.canvas",
+    "Untitled.canvas",
+    "docs/b02_different_about.md",
+    "docs/b03-deltaScenarios.md",
+    "docs/model-structure-canvas.canvas",
+    "workshop_plan.md",
     "matlab/define_chartpack.m",
     "matlab/analyze_boom_bust.m",
     "matlab/calibrate_risk_functions.m",
@@ -179,20 +193,12 @@
     "matlab/illustrate_capital_adequacy_stress_func.m",
     "matlab/illustrate_default_rate_func.m",
     "matlab/reverse_stress_test.m",
-    "matlab/simulate_boom_bust.m",
-    "matlab/simulate_car.m",
     "matlab/simulate_deleveraging.md",
     "docs/a100_macro_assets.md",
     "docs/a090_macro.md",
     "docs/a080_securities_pricing.md",
-    "docs/a070_bank_capital.md",
     "docs/a060_interest_rates.md",
     "docs/a050_bank_provisioning.md",
-    "docs/a040_credit_risk.md",
-    "docs/a030_credit_creation.md",
-    "docs/a020_bank_balance_sheets.md",
-    "docs/a010_overview.md",
-    "docs/a011_model_design.md",
     "docs/a100-macroAssets.md",
     "docs/a090-macro.md",
     "docs/a080-securitiesPricing.md",
@@ -203,20 +209,7 @@
     "docs/a030-creditCreation.md",
     "docs/a020-bankBalanceSheets.md",
     "docs/a010-overview.md",
-    "docs/a01-overview.md",
-    "workshop_plan.md",
-    "docs/a04-creditRisk.md",
     "docs/credit-creation.png",
-    "docs/model-structure-canvas.canvas",
-    "docs/lending-conditions-feedback-canvas.canvas",
-    "docs/model-structure-canvas.png",
-    "docs/model-structure.png",
-    "docs/lending-conditions-feedback-canvas.png",
-    "docs/xxx.png",
-    "docs/allowances-stock-flow.png",
-    "docs/capital-adequacy-stress-func.png",
-    "docs/portfolio-default-rate-func.png",
-    "docs/portofolio-default-rate-func.png",
-    "docs/nonlinear-credit-risk-function.png"
+    "docs/model-structure-canvas.png"
   ]
 }

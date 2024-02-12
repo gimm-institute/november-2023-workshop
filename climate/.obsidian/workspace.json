@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "69b1b27c4d4aeb8a",
+        "id": "80c81093659b3d11",
         "type": "tabs",
         "children": [
           {
-            "id": "bf88c8a7fcb29079",
+            "id": "b4d18935f8b25f46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Climate_presentations/Climate_long_term_modeling.md",
+                "file": "Climate_presentations/Climate_risk_takeaways.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Climate_presentations/Climate_long_term_modeling.md",
+                "file": "Climate_presentations/Climate_risk_takeaways.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Climate_presentations/Climate_long_term_modeling.md",
+                "file": "Climate_presentations/Climate_risk_takeaways.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Climate_presentations/Climate_long_term_modeling.md"
+                "file": "Climate_presentations/Climate_risk_takeaways.md"
               }
             }
           }
@@ -146,31 +146,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf88c8a7fcb29079",
+  "active": "b4d18935f8b25f46",
   "lastOpenFiles": [
-    "gimm-alt-white-bkg.png",
-    "Climate_intro.md",
-    "Climate_presentations/Climate_long_term_modeling.md",
     "Climate_presentations/Climate_intro.md",
-    "Climate_presentations/Climate_stress_testing_current_practices.md",
-    "Climate_presentations/Pasted image 20231123232343.png",
-    "Climate_presentations/Pasted image 20231123221409.png",
-    "Climate_presentations/Pasted image 20231123221024.png",
-    "Climate_presentations/Pasted image 20231123221009.png",
-    "Climate_presentations/Pasted image 20231123145157.png",
-    "Climate_presentations/Pasted image 20231123143445.png",
-    "Climate_presentations/Pasted image 20231123143251.png",
-    "Climate_presentations/Pasted image 20231121160111.png",
-    "Climate_presentations/Pasted image 20231121122553.png",
-    "Climate_presentations/Pasted image 20231121115138.png",
-    "Climate_presentations/Climate_long_term_modeling.pdf",
+    "Climate_presentations/Climate_risk_takeaways.md",
+    "Climate_papers/Toronto Centre: Updated Climate Toolkit 2023.pdf",
+    "Climate_papers/Toronto Centre: Introduction for Supervisors to Scenarios and Stress Tests of Climate Change Risks 2023.pdf",
+    "Climate_papers/The emperors new climate scenarios.pdf",
+    "Climate_papers/Report REMIND model and scenarios_20201102_final.pdf",
+    "Climate_papers/PNNL-GCAM_model 2018.PDF",
+    "Climate_papers/NGFS: Scenarios technical documentation phase IV.pdf",
+    "Climate_papers/NGFS: Climate scenarios for central banks and supervisors phase IV.pdf",
+    "Climate_papers/NBER: Climate Stress Testing 2023.pdf",
+    "Climate_papers/IFRS: IFRS S2 Climate related disclosures 2023.pdf",
+    "Climate_papers/IFRS: IFRS S1 General Requirements for disclosure of sustainability related financial information 2023.pdf",
+    "Climate_presentations/Climate_data.md",
     "Climate_presentations/Climate_risk_classification.md",
+    "Climate_presentations/Climate_long_term_modeling.md",
+    "Climate_presentations/Pasted image 20231129144610.png",
+    "Climate_presentations/Pasted image 20231129144513.png",
+    "Climate_presentations/Pasted image 20231129144336.png",
+    "Climate_presentations/Pasted image 20231129140201.png",
+    "Climate_presentations/Pasted image 20231129140119.png",
+    "Climate_presentations/Pasted image 20231129135857.png",
+    "Pasted image 20231129144610.png",
+    "Pasted image 20231129144513.png",
+    "Pasted image 20231129144336.png",
+    "Pasted image 20231129140201.png",
+    "Climate_presentations/Climate_current_practices.md",
+    "Climate_presentations/Climate_stress_testing_current_practices.md",
+    "Climate_intro.md",
     "[.md",
     "Pasted image 20230224234711.png.md",
-    "Climate_presentations/Climate_intro.pdf",
     "Climate/Climate_risk_classification.md",
-    "Climate/Climate_intro.md",
-    "Climate/Climate_intro.pdf",
-    "Climate"
+    "Climate/Climate_intro.md"
   ]
 }

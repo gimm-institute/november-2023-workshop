@@ -1,3 +1,4 @@
+%% Simulate output gap shock with and without feedback
 
 %{
 
@@ -8,7 +9,7 @@
 * With both models, run a simulation on the range 1:40 starting
   from steady state, adding
 
-  d0.shock_y_gap(1:4) = -0.02;
+  d1.shock_y_gap(1:4) = -0.02;
 
 * Plot 100*(y_gap-1)
 
@@ -20,51 +21,61 @@ y_gap = 1.04 means +4%
 
 %}
 
+
 close all
 clear
 load mat/create_model.mat m
 
+%% Create a model with no feedback
+
 m1 = m;
-m1.c3_y_gap = 0;
-m1.c1_prem = 0;
 
-m1 = steady(m1);
-checkSteady(m1);
-m1 = solve(m1);
+m2 = m;
+m2.c3_y_gap = 0;
+m2.c1_prem = 0;
+m2 = steady(m2);
+checkSteady(m2);
+m2 = solve(m2);
 
-d0 = databank.forModel(m, 1:40);
-d0.shock_y_gap(1:4) = -0.02;
 
-s = simulate( ...
-    m, d0, 1:40 ...
-    , prependInput=true ...
-    , method="stacked" ...
-);
+%% Create input databank (steady state)
+
+d = databank.forModel(m, 1:40);
+
+
+%% Simulate output gap shock with and without feedback
+
+d1 = d;
+d1.shock_y_gap(1:4) = -0.02;
 
 s1 = simulate( ...
-    m1, d0, 1:40 ...
+    m1, d1, 1:40 ...
     , prependInput=true ...
     , method="stacked" ...
 );
 
 
-n1 = simulate( ...
-    m1, d0, 1:40 ...
+d2 = d1;
+
+s2 = simulate( ...
+    m2, d2, 1:40 ...
     , prependInput=true ...
     , method="stacked" ...
-    , anticipate=false ...
 );
 
 
-plot(100*([s.y_gap, s1.y_gap]-1));
+smc1 = databank.minusControl(m, s1, d);
+smc2 = databank.minusControl(m, s2, d);
 
 
+%% Chart simulation results
 
-smc = databank.minusControl(m, databank.merge("horzcat", s1, n1));
+chart_db = databank.merge("horzcat", smc1, smc2);
 
 ch = define_chartpack();
 ch.FigureTitle = "Output shock: " + ch.FigureTitle;
 ch.Range = 0:40;
 ch.FigureExtras = { @(h) visual.hlegend("bottom", "Feedback", "No feedback") };
-draw(ch, smc);
+
+draw(ch, chart_db);
 

@@ -1,0 +1,54 @@
+% Toy model
+
+!variables
+
+    "Loans" l
+    "New loans" new_l
+    "Nominal GDP" ngdp
+    "Loans to GDP ratio" l_to_4ngdp
+    "Lending rate" rl
+    "Present value of contractual cash of a unit portfolio" pvu
+    pvu1
+    rs
+
+
+!parameters
+
+    "Repayment" theta
+    "Inverse velocity of new credit" alpha
+    "Nominal GDP rate of change" gamma
+    "S/S Lending rate" ss_rl
+    ss_rs
+
+
+!log-variables !all-but
+
+    l_to_4ngdp, rl, rs
+
+
+!shocks
+
+    shock_new_l
+    shock_rs
+
+
+!equations
+
+    l = (1 - theta)*l{-1} + new_l;
+
+    new_l = alpha * ngdp * exp(shock_new_l);
+
+    ngdp = gamma * ngdp{-1};
+
+    l_to_4ngdp = l / (4*ngdp);
+
+    rl = ss_rl;
+
+    rs = ss_rs + shock_rs;
+
+    pvu = 1/(1 + rl)*(theta + rl + (1-theta)*pvu{+1});
+
+    pvu1 = 1/(1 + rs)*(theta + rl + (1-theta)*pvu1{+1});
+
+
+

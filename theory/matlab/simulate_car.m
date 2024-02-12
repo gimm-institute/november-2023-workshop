@@ -109,11 +109,16 @@ s5 = simulate( ...
 );
 
 
-
+leg = [
+    "Immediate unanticipated"
+    ... "Immediate unanticipated with flat policy rate" ...
+    "Gradual unanticipated"
+    "Gradual anticipated 2Y ahead"
+    "Immediate unanticipated with credit crunch"
+]
 
 %% Simulation minus control databanks
 
-% s = databank.merge("horzcat", s1, s2, s3, s4);
 s = databank.merge("horzcat", s1, s3, s4, s5);
 smc = databank.minusControl(m, s, d0);
 
@@ -121,16 +126,10 @@ smc = databank.minusControl(m, s, d0);
 %% Chartpack
 
 ch = define_chartpack();
+
 ch.Range = 0:40;
 ch.FigureTitle = "Asset price and credit boom-bust: " + ch.FigureTitle;
-ch.FigureExtras = { @(h) visual.hlegend( ...
-    "bottom" ...
-    , "Immediate unanticipated" ...
-    ... , "Immediate unanticipated with flat policy rate" ...
-    , "Gradual unanticipated" ...
-    , "Gradual anticipated 2Y ahead" ...
-    , "Immediate unanticipated with credit crunch" ...
-) };
+ch.FigureExtras = { @(h) visual.hlegend("bottom", leg) };
 
 draw(ch, smc);
 

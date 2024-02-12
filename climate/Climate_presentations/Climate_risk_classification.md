@@ -8,8 +8,8 @@ Tomas Motl tomas.motl@gimm.institute
 ---
 ### Physical and transition risks
 * **Physical** risks stem from more frequent, more intense natural phenomena:
-	* Heatwaves, floods, hurricanes, ...
-	* Lower crop yields, lower labor productivity, ...
+	* **Acute:** Heatwaves, floods, hurricanes, ...
+	* **Chronic:** Lower crop yields, lower labor productivity, ...
 	* ...
 * **Transition** risks stem from policies implemented to adapt, mitigate 
 	* Carbon pricing
@@ -27,11 +27,12 @@ Tomas Motl tomas.motl@gimm.institute
 * "Monetary policy approach" to macropru - try to capture as many issues within a limited number of frameworks and tools
 
 
-![[Pasted image 20230223172422.png|500]]
+![[Pasted image 20230223172422.png|750]]
 
 [BIS Paper on classification and understanding of climate-related risks](https://www.bis.org/bcbs/publ/d517.htm)
 ECB Exposure-risk framework:
-  ![[Pasted image 20230224112405.png|500]]
+  ![[Pasted image 20230224112405.png|700]]
+
 
 ---
 ### What is special about these risks?
